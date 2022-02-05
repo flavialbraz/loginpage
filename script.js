@@ -20,7 +20,7 @@ function Login() {
          
         if(passwordUser.value != passwordRegistered || emailUser.value != emailRegistered){
             alertErrorLogin.classList.add("boxred")
-            alertErrorLogin.innerHTML = " Login inválido. Confira a sua senha ou e-mail" + 
+            alertErrorLogin.innerHTML = " Login inválido. Confira a sua senha ou e-mail." + 
             '<button id="fecharmensagem" onclick="closeX();">&times;</button>';
             return false;
         }
