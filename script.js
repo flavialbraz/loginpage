@@ -9,7 +9,7 @@ let alertErrorLogin = document.getElementById("alert-error");
 
  
 function Login() {
-        if (passwordUser.value === emailRegistered && emailUser.value === passwordRegistered) {
+        if (passwordUser.value === passwordRegistered && emailUser.value === emailRegistered) {
             location = "home.html";    
             return false;  
         }
@@ -18,7 +18,7 @@ function Login() {
             return false;                              
         }  
          
-        if(emailUser.value != passwordRegistered || passwordUser.value != emailRegistered){
+        if(passwordUser.value != passwordRegistered || emailUser.value != emailRegistered){
             alertErrorLogin.classList.add("boxred")
             alertErrorLogin.innerHTML = " Login inválido. Confira a sua senha ou e-mail" + 
             '<button id="fecharmensagem" onclick="closeX();">&times;</button>';
