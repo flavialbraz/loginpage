@@ -30,7 +30,7 @@ a:hover, a:focus {
     height: 700px;
 }
 
-.bem-vindo {
+.closemsg {
     background: linear-gradient(180deg, #7C76BB 0%, #655BC6 100%);
     box-shadow: -2px 2px 63px rgba(0, 0, 0, 0.25);
     border-radius: 19px;
@@ -42,7 +42,7 @@ a:hover, a:focus {
 }
 
 
-.bem-vindo h1 {
+.welcome h1 {
     font-weight: 500;
     color: #ffff;
     font-size: 3rem;
@@ -51,12 +51,12 @@ a:hover, a:focus {
     line-height: 50px;
 }
 
-.bem-vindo img {
+.welcome img {
     width: 69%;
     margin: 3rem;
 }
 
-.formulario-login h2 {
+.form-login h2 {
     line-height: 31px;
     text-align: left;
     color: #161616;
@@ -65,7 +65,7 @@ a:hover, a:focus {
     margin: 5rem 0rem 2rem 0rem;
 }
 
-.formulario-login input {
+.form-login input {
     display: block;
     border: none;
     padding: 22px 70px;
@@ -81,22 +81,22 @@ a:hover, a:focus {
     font-family: DM Sans;
 }
 
-.formulario-login {
+.form-login {
     flex: 1;
     padding: 45px;
 }
 
-.formulario-login a {
+.form-login a {
     display: block;
     text-align: right;
     margin: 20px 0px;
 }
 
-.formulario-login p > a {
+.form-login p > a {
     display: unset;
 }
 
-.formulario-login button {
+.form-login button {
     background: #7C76BB;
     border: none;
     border-radius: 100px;
@@ -108,18 +108,18 @@ a:hover, a:focus {
     color: #fff;
 }
 
-.formulario-login button:hover {
+.form-login button:hover {
     background: linear-gradient(180deg, #7C76BB 0%, #655BC6 100%);
 }
 
-.formulario-login p {
+.form-login p {
     display: block;
     text-align: center;
     width: 100%;
     margin-top: 2rem;
 }
 
-.versenha {
+.viewpassword {
     width: 30px;
     height: 30px;
     background: url(images/hidden.svg);
@@ -129,16 +129,16 @@ a:hover, a:focus {
     cursor: pointer;
 }
 
-.campo-senha {
+.field-password {
     position: relative;
 }
 
-.campo-senha input {
+.field-password input {
     background: url(images/password.svg) top left no-repeat #f4f4f4;
     background-position: 24px 15px;
 }
 
-.campo-email input {
+.field-email input {
     background: url(images/email.svg) top left no-repeat #f4f4f4;
     background-position: 24px 15px;
 }
@@ -166,7 +166,7 @@ a:hover, a:focus {
     visibility: visible;
 }
 
-.error-login #fecharmensagem {
+.error-login #closemsg {
     background: unset;
     font-size: 23px;
     padding: 0;
@@ -205,7 +205,7 @@ a:hover, a:focus {
         margin-bottom: 5rem;
     }
 
-    .bem-vindo h1 {
+    .welcome h1 {
         margin-top: 0.5rem;
         font-size: 1.62rem;
         float: right;
@@ -217,19 +217,19 @@ a:hover, a:focus {
         letter-spacing: -1px;
     }
 
-    .bem-vindo {
+    .welcome {
         height: 43vw;
         border-radius: 0px;
         position: relative;
         padding: 20px;
     }
 
-    .bem-vindo img {
+    .welcome img {
         width: 46%;
         margin: 2rem 0rem 0rem 0rem;
     }
 
-    .formulario-login h2 {
+    .form-login h2 {
         margin: 3rem 0rem 2rem 0rem;
     }
 
