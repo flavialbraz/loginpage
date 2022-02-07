@@ -13,21 +13,21 @@
 <body>
     
 <main class="container"> 
-    <div class="bem-vindo">
+    <div class="welcome">
         <h1>Olá, bem-vindo de volta!</h1>
         <img src="images/astronaut.svg" alt="Astronauta">
     </div>
 
-     <div class="formulario-login"> 
+     <div class="form-login"> 
             <h2>Login</h2>
 
         <form onSubmit="return Login()" method="post">
-            <div class="campo-email">
+            <div class="password-email">
             <input type="email" placeholder="E-mail" name="email" id="email" required autofocus>
             </div>
-            <div class="campo-senha">
+            <div class="password-password">
             <input type="password" name="password" id="password" placeholder="Senha" required>
-            <div class="versenha" onclick="showPassword()"></div>
+            <div class="viewpassword" onclick="showPassword()"></div>
             </div>
             <a href="#" onclick="alert(messageWithLogin);">Esqueceu a sua senha?</a>
             <button type="submit">Login</button>
