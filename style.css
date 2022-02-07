@@ -30,7 +30,7 @@ a:hover, a:focus {
     height: 700px;
 }
 
-.closemsg {
+.welcome {
     background: linear-gradient(180deg, #7C76BB 0%, #655BC6 100%);
     box-shadow: -2px 2px 63px rgba(0, 0, 0, 0.25);
     border-radius: 19px;
