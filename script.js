@@ -1,5 +1,3 @@
- 
-
 let emailUser = document.getElementById("email");
 let passwordUser = document.getElementById("password");
 let emailRegistered = "oi@gmail.com";
@@ -11,19 +9,17 @@ let alertErrorLogin = document.getElementById("alert-error");
 function Login() {
         if (passwordUser.value === passwordRegistered && emailUser.value === emailRegistered) {
             location = "home.html";    
-            return false;  
         }
 
         if(passwordUser.value === "" && emailUser === ""){
-            return false;                              
         }  
          
         if(passwordUser.value != passwordRegistered || emailUser.value != emailRegistered){
             alertErrorLogin.classList.add("boxred")
-            alertErrorLogin.innerHTML = " Login inválido. Confira a sua senha ou e-mail." + 
-            '<button id="fecharmensagem" onclick="closeX();">&times;</button>';
-            return false;
+            alertErrorLogin.innerHTML = " Login inválido. Confira a sua senha ou e-mail" + 
+            '<button id="closemsg" onclick="closeX();">&times;</button>';
         }
+        return false;
 
 }
  
