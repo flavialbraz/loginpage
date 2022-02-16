@@ -30,6 +30,7 @@ function showPassword() {
         if (inputPassword.type === "password") {
             inputPassword.type = "text";
          }
+        
         else {
             inputPassword.type = "password";
         }
