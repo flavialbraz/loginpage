@@ -19,6 +19,7 @@ function Login() {
             alertErrorLogin.innerHTML = " Login inválido. Confira a sua senha ou e-mail" + 
             '<button id="closemsg" onclick="closeX();">&times;</button>';
         }
+
         return false;
 
 }
@@ -29,11 +30,10 @@ function showPassword() {
         if (inputPassword.type === "password") {
             inputPassword.type = "text";
          }
-        
         else {
             inputPassword.type = "password";
         }
-  }
+}
  
  
 let messageWithLogin = "Utilize nosso login padrão: Email: " + emailRegistered + " | Senha: " + passwordRegistered;
