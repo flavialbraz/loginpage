@@ -11,7 +11,7 @@ function Login() {
             location = "home.html";    
         }
 
-        if(passwordUser.value === "" && emailUser === ""){
+        if(!passwordUser.value && !emailUser){
         }  
          
         if(passwordUser.value != passwordRegistered || emailUser.value.toLowerCase() != emailRegistered){
