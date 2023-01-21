@@ -3,7 +3,7 @@
 
 
 <p align="center">
-![flavialbraz github io_loginpage_login](https://user-images.githubusercontent.com/78583429/213829244-a177c632-6142-4738-bfc6-805efde5687a.png)
+  <img src="./images/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
